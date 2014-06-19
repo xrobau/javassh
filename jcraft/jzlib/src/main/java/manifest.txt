@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Created-By: Rob Thomas <xrobau@gmail.com>
-Application-Name: JCraft SSH
+Application-Name: JCraft JZLib
 Permissions: all-permissions
 Trusted-Only: false
 
