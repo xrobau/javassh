@@ -49,7 +49,7 @@ you can integrate its functionality into your own Java programs
     <mkdir dir="${dist}/lib"/>
 
     <!-- Put everything in ${build} into the MyProject-${version}.jar file -->
-    <jar jarfile="${dist}/lib/jsch-${version}.jar" basedir="${build}">
+    <jar jarfile="${dist}/lib/jsch-${version}.jar" basedir="${build}" manifest="manifest.txt">
       <!--
       <manifest>
         <attribute name="Bundle-ClassPath" value="."/>
