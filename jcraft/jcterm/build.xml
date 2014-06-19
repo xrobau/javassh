@@ -48,6 +48,7 @@
     <mkdir dir="${dist}/lib"/>
 
     <jar jarfile="${dist}/lib/${jcterm.jar}"
+	 manifest="manifest.txt"
          includes="com/jcraft/jcterm/*.class"
          basedir="${build}"/>
 
