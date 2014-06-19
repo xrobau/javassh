@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Created-By: Rob Thomas <xrobau@gmail.com>
+Application-Name: JCraft SSH
+Permissions: all-permissions
+Trusted-Only: false
+
+
